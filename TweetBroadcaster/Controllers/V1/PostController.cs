@@ -2,7 +2,7 @@
 
 namespace TweetBroadcaster.Controllers
 {
-    public class TestController : Controller
+    public class PostController : Controller
     {
         [HttpGet("api/user")]
         public IActionResult Get()
